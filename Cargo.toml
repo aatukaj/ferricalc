@@ -1,0 +1,19 @@
+[package]
+name = "ferricalc"
+version = "0.1.0"
+edition = "2021"
+
+
+[profile.release]
+debug = true
+
+[dependencies]
+
+crossterm = "0.27.0"
+ratatui = "0.26"
+rug = "1.24.0"
+
+
+
+
+
